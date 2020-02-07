@@ -7,7 +7,7 @@ Wayne's World Lorem Ipsum Generator
 ## Usage
 
 ```js
-import { Lorem, defaultConfig } from "lorem-ipschwing";
+import { Lorem, defaultConfig } from "@pinkkis/lorem-ipschwing";
 
 const lorem = new Lorem(/*defaultConfig*/);
 
