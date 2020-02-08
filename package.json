@@ -2,7 +2,7 @@
 	"name": "@pinkkis/lorem-ipschwing",
 	"version": "0.2.0",
 	"description": "Wayne's World Lorem Ipsum Generator",
-	"main": "dist/main.umd.js",
+	"main": "dist/main.esm.js",
 	"module": "dist/main.esm.js",
 	"browser": "dist/main.umd.js",
 	"type": "module",
