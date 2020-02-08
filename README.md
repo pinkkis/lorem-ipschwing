@@ -11,7 +11,7 @@ import { Lorem, defaultConfig } from "@pinkkis/lorem-ipschwing";
 
 const lorem = new Lorem(/*defaultConfig*/);
 
-const sentence = lorem.generateSentence();
+const sentence = lorem.generateSentence(/*startWithLoremIpsum*/);
 const paragraph = lorem.generateParagraph();
 ```
 
@@ -27,9 +27,9 @@ const defaultConfig = {
 		min: 4,
 		max: 8
 	},
-	ww1: true,
-	ww2: true,
-	useLongSentences: true,
+	ww1: true, // use wayne's world 1 quotes
+	ww2: true, // use wayne's world 2 quotes
+	useLongSentences: true, // add a long sentence as part of output (one per generated sentence)
 	startWithLoremIpsum: true,
 	sentenceAddThreshold: 0.6 // Math.random() > threshold
 };
